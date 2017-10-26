@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="UTF-8">
-	<title>JQuery</title>
+	<title>Uso de JQuery</title>
+	
+	<script type="text/javascript" src="../js/jquery.js"> </script>
+	<script type="text/javascript">
+		/*  Para usar a biblioteca de JQuery, é necessário usar um caracter especial
+		para fazer a chamada:($) ou JQuery  */
+
+	//Quando o meu documento estiver carregado (pronto), executar uma função anônima.
+	$(document).ready(function(){
+		$('#principal').append('<p> Texto Novo </p>');
+		$('#primeiro').click(function(){
+			$('div').append('<h2> Estou Aqui! </h2>');
+		});
+	});
+	
+	</script>
+
 </head>
+
+
 <body>
 	
+	<header>
+		<h1>Página com JQuery</h1>
+	</header>
+
+	<main>
+		<section id="principal">
+			<div>
+				<button id="primeiro"> Primeiro </button> <br>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error laborum facere aut temporibus ipsa earum consequuntur, beatae molestiae quasi velit ut alias explicabo saepe, tempore quis aliquid iste. Fugiat, delectus?</div>
+				<div>Reiciendis consequuntur facilis unde enim quis, nulla, harum recusandae quo, consectetur totam soluta? Odit deserunt nostrum labore quia hic, commodi sapiente velit harum natus odio? At facere quas, alias libero.</div>
+				<div>Ducimus voluptas quod, perspiciatis, excepturi eaque, assumenda corporis, repellat quas odit optio laborum voluptatem commodi suscipit recusandae tenetur a cupiditate vitae culpa pariatur. Aliquam officiis repudiandae, eaque quibusdam veniam enim.</div>
+			</div>
+			<div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error in, soluta corporis, omnis consectetur possimus dicta repellendus doloribus porro est debitis quas atque. Eum omnis, voluptatum maiores incidunt id, quam.</div>
+				<div>Impedit commodi doloribus libero ad eligendi fugit non vero voluptate fugiat autem debitis consectetur assumenda repudiandae culpa ratione eos cum harum ex reprehenderit quaerat velit, quam dolorem mollitia. Quo, unde.</div>
+				<div>Aspernatur dolores sint modi tempore odit corporis similique est quisquam iusto. Assumenda id velit amet vitae ducimus expedita quis doloribus culpa perspiciatis, in explicabo pariatur voluptates facilis necessitatibus quia repellendus.</div>
+			</div>
+		</section>
+	</main>
+
 </body>
 </html>
