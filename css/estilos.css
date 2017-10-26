@@ -1,0 +1,17 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+header{
+	padding:5% 0px;
+	background-image:url("http://artfcity.com/wp-content/uploads/2014/06/Nickbriz.gif");
+	background-size:100%;
+	background-position:0px -200px;
+}
+
+h1{
+	color:white;
+}
+
+/*http://res.cloudinary.com/db79cecgq/image/upload/c_crop,h_720,w_1440,y_91/c_fill,h_800,w_1600/v1412616410/As_estrelas-2.jpg"
